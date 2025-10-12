@@ -10,5 +10,11 @@
 
 // console.log(spreadTagSelection)
 
-const selectTopic = document.querySelector("#topic");
-selectTopic.innerHTML = "<b>james</b> shaka laka boom"
+// const selectTopic = document.querySelector("#topic");
+// selectTopic.innerHTML = "<b>james</b> shaka laka boom"
+
+const showKey = document.querySelector('p');
+
+
+console.log(showKey.innerText);
+console.log(showKey.textContent)
